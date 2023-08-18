@@ -1,0 +1,238 @@
+
+.about-desc > h1 {
+  text-align: center;
+  font-size: 3vw; /* Responsive font size */
+}
+
+.row {
+  margin-right: 3%;
+}
+
+.timeline-centered {
+  position: relative;
+  margin-bottom: 3vh;
+}
+
+.timeline-centered:before, .timeline-centered:after {
+  content: " ";
+  display: table;
+}
+
+.timeline-centered:after {
+  clear: both;
+}
+
+.timeline-centered:before, .timeline-centered:after {
+  content: " ";
+  display: table;
+}
+
+.timeline-centered:after {
+  clear: both;
+}
+
+.timeline-centered:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0.5vw; /* Responsive width */
+  background: black;
+  color: white;
+  top: 2vh;
+  bottom: 2vh;
+  margin-left: 2.5vw; /* Responsive margin */
+}
+
+.timeline-centered .timeline-entry {
+  position: relative;
+  margin-top: 1vh;
+  margin-left: 2.5vw; /* Responsive margin */
+  margin-bottom: 2vh;
+  clear: both;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner {
+  position: relative;
+  margin-left: -1.5vw; /* Responsive margin */
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+  display: block;
+  width: 4vw; /* Responsive width */
+  height: 4vw; /* Responsive height */
+  background: black;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 0 0 0.5vw #f2f3f7;
+  line-height: 4vw; /* Responsive line height */
+  float: left;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
+  color: #fff;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
+  background: black;
+  width: 2vw; /* Responsive width */
+  height: 2vw; /* Responsive height */
+  margin-left: 1vw; /* Responsive margin */
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+  position: relative;
+  background: black;
+  color: white;
+  padding: 1.5vh 1.5vw;
+  margin-left: 6vw; /* Responsive margin */
+  background-clip: padding-box;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1.5vh 1.5vh 1.5vh 0;
+  border-color: transparent #f2f3f7 transparent transparent;
+  left: 0;
+  top: 1vh;
+  margin-left: -1.5vh; /* Responsive margin */
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
+  margin-top: 1.5vh;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
+  font-size: 1.5vw; /* Responsive font size */
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
+  color: #000;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+  opacity: 0.4;
+  font-size: 1.2vw; /* Responsive font size */
+}
+
+body {
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+}
+
+/* .left */
+.left {
+  color: white;
+  background: black;
+  display: block;
+  width: 25%;
+  position: fixed;
+  height: 100vh;
+}
+
+.left > h1 {
+  color: white;
+  text-align: center;
+}
+
+.left > nav > a {
+  display: block;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  color: white;
+  text-decoration: none;
+}
+
+.left > img {
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin: 20px auto 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+/* .right */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.text {
+  padding: 1% 7% 5%;
+}
+
+.right > .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5vw; /* Responsive font size */
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 4%;
+}
+
+.left-again {
+  display: block;
+  float: left;
+  margin-right: 20%;
+}
+
+.right-again {
+  display: block;
+  margin-right: 20%;
+}
+
+.goals {
+  display: block;
+  margin-top: 5%;
+}
+
+.socials {
+  display: block;
+  padding: 1% 0 7%;
+  background-color: black;
+  color: white;
+}
+
+.socials > h3 {
+  margin-bottom: 3%;
+}
+
+.socials > a {
+  text-decoration: none;
+  font-size: 2vw; /* Responsive font size */
+  margin-left: 18.75%;
+  color: white;
+}
+
+.right {
+  display: inline-block;
+  margin-left: 25%;
+  width: 75%;
+  height: 100%;
+}
